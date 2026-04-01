@@ -21,19 +21,19 @@
       "image": "pages/page_03.jpg", 
       "label": "Start auf Deutsch – S.4",
       "overlays": [
-        { "type": "audio", "id": "aud_p3_1", "track": "audios/track_02.mp3", "label": "▶ Track 1.02", "x": 19, "y": 21.5, "w": 9, "h": 3.5 },
-        { "type": "audio", "id": "aud_p3_2", "track": "audios/track_07.mp3", "label": "▶ Track 1.07", "x": 58, "y": 21.5, "w": 9, "h": 3.5 },
-        { "type": "audio", "id": "aud_p3_3", "track": "audios/track_02.mp3", "label": "▶ Track 02", "x": 13.5, "y": 72.5, "w": 9, "h": 3.5 },
-        { "type": "input", "id": "inp_p3_b1", "x": 29.5, "y": 74.8, "w": 16, "h": 2.5, "placeholder": "...gänzen", "answer": "Ergänzen" },
-        { "type": "input", "id": "inp_p3_b2", "x": 29.5, "y": 77.2, "w": 16, "h": 2.5, "placeholder": "A...", "answer": "Antworten" },
-        { "type": "input", "id": "inp_p3_b3", "x": 29.5, "y": 79.6, "w": 16, "h": 2.5, "placeholder": "B...", "answer": "Buchstabieren" },
-        { "type": "input", "id": "inp_p3_b4", "x": 29.5, "y": 82.0, "w": 16, "h": 2.5, "placeholder": "N...", "answer": "Notieren" },
-        { "type": "input", "id": "inp_p3_b5", "x": 29.5, "y": 84.4, "w": 16, "h": 2.5, "placeholder": "F...", "answer": "Fragen" },
-        { "type": "input", "id": "inp_p3_b6", "x": 29.5, "y": 86.8, "w": 16, "h": 2.5, "placeholder": "H...", "answer": "Hören" },
-        { "type": "input", "id": "inp_p3_b7", "x": 29.5, "y": 89.2, "w": 16, "h": 2.5, "placeholder": "L...", "answer": "Lesen" },
-        { "type": "input", "id": "inp_p3_b8", "x": 59, "y": 84.4, "w": 16, "h": 2.5, "placeholder": "K...", "answer": "Kreuzen" },
-        { "type": "input", "id": "inp_p3_b9", "x": 59, "y": 86.8, "w": 16, "h": 2.5, "placeholder": "V...", "answer": "Verbinden" },
-        { "type": "input", "id": "inp_p3_b10","x": 59, "y": 89.2, "w": 16, "h": 2.5, "placeholder": "M...", "answer": "Markieren" }
+        { "type": "audio", "id": "aud_p3_1", "track": "audios/track_02.mp3", "label": "▶ Track 1.02", "x": 19, "y": 22, "w": 8, "h": 3.5 },
+        { "type": "audio", "id": "aud_p3_2", "track": "audios/track_07.mp3", "label": "▶ Track 1.07", "x": 58.5, "y": 23, "w": 8, "h": 3.5 },
+        { "type": "audio", "id": "aud_p3_3", "track": "audios/track_02.mp3", "label": "▶ Track 02", "x": 13, "y": 73, "w": 8, "h": 3.5 },
+        { "type": "input", "id": "inp_p3_b1", "x": 23, "y": 75.3, "w": 13, "h": 2.5, "placeholder": "...gänzen", "answer": "Ergänzen" },
+        { "type": "input", "id": "inp_p3_b2", "x": 23, "y": 77.8, "w": 13, "h": 2.5, "placeholder": "A...", "answer": "Antworten" },
+        { "type": "input", "id": "inp_p3_b3", "x": 23, "y": 80.3, "w": 13, "h": 2.5, "placeholder": "B...", "answer": "Buchstabieren" },
+        { "type": "input", "id": "inp_p3_b4", "x": 23, "y": 82.8, "w": 13, "h": 2.5, "placeholder": "N...", "answer": "Notieren" },
+        { "type": "input", "id": "inp_p3_b5", "x": 23, "y": 85.3, "w": 13, "h": 2.5, "placeholder": "F...", "answer": "Fragen" },
+        { "type": "input", "id": "inp_p3_b6", "x": 23, "y": 87.8, "w": 13, "h": 2.5, "placeholder": "H...", "answer": "Hören" },
+        { "type": "input", "id": "inp_p3_b7", "x": 23, "y": 90.3, "w": 13, "h": 2.5, "placeholder": "L...", "answer": "Lesen" },
+        { "type": "input", "id": "inp_p3_b8", "x": 56.5, "y": 85.3, "w": 13, "h": 2.5, "placeholder": "K...", "answer": "Kreuzen" },
+        { "type": "input", "id": "inp_p3_b9", "x": 56.5, "y": 87.8, "w": 13, "h": 2.5, "placeholder": "V...", "answer": "Verbinden" },
+        { "type": "input", "id": "inp_p3_b10","x": 56.5, "y": 90.3, "w": 13, "h": 2.5, "placeholder": "M...", "answer": "Markieren" }
       ]
     },
     {
