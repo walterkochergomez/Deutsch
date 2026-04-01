@@ -94,8 +94,9 @@ function autoZoom() {
 function applyZoom() {
   const w = Math.round(794 * S.zoom);
   el.pageCanvas.style.width = w + 'px';
-  // font-size drives overlay em units
-  el.pageCanvas.style.fontSize = w + 'px';
+  
+  // SOLUCIÓN: Escalar la fuente desde una base de 16px proporcional al zoom
+  el.pageCanvas.style.fontSize = (16 * S.zoom) + 'px';
 }
 
 // ─────────────────────────────────────────────
