@@ -73,19 +73,19 @@
       "color": "#8B1A1A",
       "activities": [
         {
-          "id": "kap1-1c",
-          "title": "1c) Wo, woher oder was?",
-          "type": "fill_blank_select",
-          "instructions": "Ergänzen Sie: Wo, Woher oder Was?",
-          "items": [
-            { "id": 1, "text": "___ kommen Jim und Eve?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
-            { "id": 2, "text": "___ ist Nürburg?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
-            { "id": 3, "text": "___ ist die CeBIT?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
-            { "id": 4, "text": "___ kommt die Firma Baier & Maier?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
-            { "id": 5, "text": "___ trinken die Amerikaner gern?", "options": ["Wo", "Woher", "Was"], "answer": "Was" },
-            { "id": 6, "text": "___ ist „Chai Latte"?", "options": ["Wo", "Woher", "Was"], "answer": "Was" }
-          ]
-        },
+    "id": "kap1-1c",
+    "title": "1c) Wo, woher oder was?",
+    "type": "fill_blank_select",
+    "instructions": "Ergänzen Sie: Wo, Woher oder Was?",
+    "items": [
+      { "id": 1, "text": "___ kommen Jim und Eve?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
+      { "id": 2, "text": "___ ist Nürburg?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
+      { "id": 3, "text": "___ ist die CeBIT?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
+      { "id": 4, "text": "___ kommt die Firma Baier & Maier?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
+      { "id": 5, "text": "___ trinken die Amerikaner gern?", "options": ["Wo", "Woher", "Was"], "answer": "Was" },
+      { "id": 6, "text": "___ ist \"Chai Latte\"?", "options": ["Wo", "Woher", "Was"], "answer": "Was" }
+    ]
+  },
         {
           "id": "kap1-2",
           "title": "2 – Zahlen lesen",
