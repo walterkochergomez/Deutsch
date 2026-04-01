@@ -73,29 +73,29 @@
       "color": "#8B1A1A",
       "activities": [
         {
-    "id": "kap1-1c",
-    "title": "1c) Wo, woher oder was?",
-    "type": "fill_blank_select",
-    "instructions": "Ergänzen Sie: Wo, Woher oder Was?",
-    "items": [
-      { "id": 1, "text": "___ kommen Jim und Eve?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
-      { "id": 2, "text": "___ ist Nürburg?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
-      { "id": 3, "text": "___ ist die CeBIT?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
-      { "id": 4, "text": "___ kommt die Firma Baier & Maier?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
-      { "id": 5, "text": "___ trinken die Amerikaner gern?", "options": ["Wo", "Woher", "Was"], "answer": "Was" },
-      { "id": 6, "text": "___ ist \"Chai Latte\"?", "options": ["Wo", "Woher", "Was"], "answer": "Was" }
-    ]
-  },
+          "id": "kap1-1c",
+          "title": "1c) Wo, woher oder was?",
+          "type": "fill_blank_select",
+          "instructions": "Ergänzen Sie: Wo, Woher oder Was?",
+          "items": [
+            { "id": 1, "text": "___ kommen Jim und Eve?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
+            { "id": 2, "text": "___ ist Nürburg?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
+            { "id": 3, "text": "___ ist die CeBIT?", "options": ["Wo", "Woher", "Was"], "answer": "Wo" },
+            { "id": 4, "text": "___ kommt die Firma Baier & Maier?", "options": ["Wo", "Woher", "Was"], "answer": "Woher" },
+            { "id": 5, "text": "___ trinken die Amerikaner gern?", "options": ["Wo", "Woher", "Was"], "answer": "Was" },
+            { "id": 6, "text": "___ ist \"Chai Latte\"?", "options": ["Wo", "Woher", "Was"], "answer": "Was" }
+          ]
+        },
         {
           "id": "kap1-2",
           "title": "2 – Zahlen lesen",
           "type": "fill_blank",
           "instructions": "Schreiben Sie die Antworten in Zahlen.",
           "items": [
-            { "id": 1, "prefix": "Die Kursnummer ist", "blank": "", "suffix": "(einhunderteins).", "answer": "101" },
-            { "id": 2, "prefix": "Das macht zusammen", "blank": "", "suffix": "€ (sechzehn Euro siebzig).", "answer": "16,70" },
-            { "id": 3, "prefix": "In der Schillerstraße", "blank": "", "suffix": "(achtunddreißig).", "answer": "38" },
-            { "id": 4, "prefix": "", "blank": "", "suffix": "(vierundsiebzig sechsunddreißig zweiundachtzig).", "answer": "74 36 82" }
+            { "id": 1, "prefix": "Die Kursnummer ist", "blank": "", "suffix": " (einhunderteins).", "answer": "101" },
+            { "id": 2, "prefix": "Das macht zusammen", "blank": "", "suffix": " € (sechzehn Euro siebzig).", "answer": "16,70" },
+            { "id": 3, "prefix": "In der Schillerstraße", "blank": "", "suffix": " (achtunddreißig).", "answer": "38" },
+            { "id": 4, "prefix": "", "blank": "", "suffix": " (vierundsiebzig sechsunddreißig zweiundachtzig).", "answer": "74 36 82" }
           ]
         },
         {
@@ -148,11 +148,11 @@
           "id": "kap1-10",
           "title": "10 – Konjugation",
           "type": "sorting",
-          "instructions": "Welche Karte passt? Ordnen Sie die Verben zu. Manchmal gibt es zwei Möglichkeiten.",
+          "instructions": "Welche Karte passt? Ordnen Sie die Verben zu.",
           "words": ["bist", "komme", "trinkt", "ist", "heiße", "nehmen", "möchtet", "kommst", "wohne", "antwortet", "möchten", "sind", "zahlen", "habe", "sammelt", "sprichst"],
           "categories": [
-            { "pronoun": "ich", "answers": ["komme", "heiße", "wohne", "nehme", "habe", "möchte"] },
-            { "pronoun": "du", "answers": ["bist", "kommst", "trinkst", "sprichst"] },
+            { "pronoun": "ich", "answers": ["komme", "heiße", "wohne", "nehme", "habe"] },
+            { "pronoun": "du", "answers": ["bist", "kommst", "sprichst"] },
             { "pronoun": "er/es/sie", "answers": ["trinkt", "ist", "sammelt", "antwortet"] },
             { "pronoun": "wir", "answers": ["sind", "nehmen", "zahlen", "möchten"] },
             { "pronoun": "ihr", "answers": ["möchtet", "trinkt", "antwortet"] },
@@ -293,6 +293,19 @@
           ]
         },
         {
+          "id": "kap4-ext",
+          "title": "8 – Zwei Zimmer im Studentenwohnheim",
+          "type": "fill_blank_select",
+          "instructions": "Susanne y Bernd describen sus habitaciones. ¿Qué palabra encaja?",
+          "items": [
+            { "id": 1, "text": "Susanne lebt im Wohnheim. Das ist nicht so ___.", "options": ["dunkel", "teuer", "laut"], "answer": "teuer" },
+            { "id": 2, "text": "Ihr Zimmer ist klein, ___ hell.", "options": ["und", "oder", "aber"], "answer": "aber" },
+            { "id": 3, "text": "Links von der Zimmertür ist ein ___.", "options": ["Bett", "Sofa", "Bücherregal"], "answer": "Bücherregal" },
+            { "id": 4, "text": "Bernd findet sein Zimmer zu klein, aber es ist ___.", "options": ["groß", "hell", "alt"], "answer": "hell" },
+            { "id": 5, "text": "Da ___ er am Computer.", "options": ["arbeiten", "arbeitet", "arbeite"], "answer": "arbeitet" }
+          ]
+        },
+        {
           "id": "kap4-9",
           "title": "9 – Schlafen. Ergänzen Sie.",
           "type": "conjugation_table",
@@ -374,6 +387,24 @@
       ]
     },
     {
+      "id": "kap6",
+      "title": "Kapitel 6 – Orientierung",
+      "color": "#8B1A1A",
+      "activities": [
+        {
+          "id": "kap6-transporte",
+          "title": "3 – Verkehrsmittel",
+          "type": "fill_blank",
+          "instructions": "Ergänzen Sie die Sätze über Susanne.",
+          "items": [
+            { "id": 1, "prefix": "Um 7.30 Uhr fährt Susanne ", "blank": "", "suffix": " zum Bahnhof.", "answer": "mit dem Fahrrad" },
+            { "id": 2, "prefix": "Um 7.54 Uhr fährt sie ", "blank": "", "suffix": " von Bonn nach Köln.", "answer": "mit dem Zug" },
+            { "id": 3, "prefix": "Um 17.05 Uhr fährt sie ", "blank": "", "suffix": " zum Markt.", "answer": "mit dem Bus" }
+          ]
+        }
+      ]
+    },
+    {
       "id": "kap7",
       "title": "Kapitel 7 – Berufe",
       "color": "#8B1A1A",
@@ -392,6 +423,26 @@
             { "speaker": "female", "text": "Nein, Anne ___ heute nicht ausgehen. Sie ___ noch lernen.", "blanks": ["kann", "muss"] },
             { "speaker": "male", "text": "Aber vielleicht ___ ihr später zusammen ein Video sehen?", "blanks": ["könnt"] },
             { "speaker": "female", "text": "Wir beide ___ auch mal etwas zusammen machen.", "blanks": ["können"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap8",
+      "title": "Kapitel 8 – Münster sehen",
+      "color": "#8B1A1A",
+      "activities": [
+        {
+          "id": "kap8-munster",
+          "title": "1 – Mit dem Fahrrad durch Münster",
+          "type": "checkbox_table",
+          "instructions": "Richtig oder Falsch? Kreuzen Sie an.",
+          "people": ["Richtig", "Falsch"],
+          "statements": [
+            { "text": "In der Radstation kann man ein Fahrrad mieten.", "correct": ["Richtig"] },
+            { "text": "Alle Münsteraner fahren jeden Tag mit dem Fahrrad.", "correct": ["Falsch"] },
+            { "text": "Autos dürfen auf der Promenade nicht fahren.", "correct": ["Richtig"] },
+            { "text": "Osnabrück liegt im Nordosten von Münster.", "correct": ["Richtig"] }
           ]
         }
       ]
@@ -426,10 +477,42 @@
       ]
     },
     {
+      "id": "kap11",
+      "title": "Kapitel 11 – Kleidung und Wetter",
+      "color": "#8B1A1A",
+      "activities": [
+        {
+          "id": "kap11-anprobe",
+          "title": "5 – Zu lang, zu kurz...",
+          "type": "fill_blank_bank",
+          "instructions": "Elena está de compras. Use 'zu' + el adjetivo correcto.",
+          "wordBank": ["zu klein", "zu groß", "zu lang", "zu kurz", "zu teuer", "zu bunt"],
+          "dialog": [
+            { "speaker": "female", "text": "Zuerst hat sie eine rote Hose anprobiert. Die rote Hose war ___.", "blanks": ["zu klein"] },
+            { "speaker": "female", "text": "Die grüne Hose war leider ___.", "blanks": ["zu lang"] },
+            { "speaker": "female", "text": "Der Pullover war ihr viel ___.", "blanks": ["zu bunt"] },
+            { "speaker": "female", "text": "Elena hat die Jacke nicht gekauft. Sie war ___: 350 Euro!", "blanks": ["zu teuer"] }
+          ]
+        }
+      ]
+    },
+    {
       "id": "kap12",
       "title": "Kapitel 12 – Körper und Gesundheit",
       "color": "#8B1A1A",
       "activities": [
+        {
+          "id": "kap12-krankheit",
+          "title": "3 – Krankheiten",
+          "type": "fill_blank",
+          "instructions": "Was fehlt den Personen? Ergänzen Sie.",
+          "items": [
+            { "id": 1, "prefix": "Toms Nase läuft. Er hat ", "blank": "", "suffix": ".", "answer": "Schnupfen" },
+            { "id": 2, "prefix": "Olga hat 38,4° Grad Körpertemperatur. Sie hat ", "blank": "", "suffix": ".", "answer": "Fieber" },
+            { "id": 3, "prefix": "Michi hat zu viel Eis gegessen. Er hat ", "blank": "", "suffix": ".", "answer": "Bauchschmerzen" },
+            { "id": 4, "prefix": "Ich brauche eine Tablette. Ich habe ", "blank": "", "suffix": ".", "answer": "Kopfschmerzen" }
+          ]
+        },
         {
           "id": "kap12-10",
           "title": "10 – Modalverben dürfen oder müssen",
