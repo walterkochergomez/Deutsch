@@ -1,0 +1,315 @@
+{
+  "book": {
+    "title": "Studio 21 A1 – Intensivtraining",
+    "totalPages": 34
+  },
+  "pages": [
+    { "num": 1, "image": "pages/page_01.jpg", "label": "Portada", "overlays": [] },
+    { "num": 2, "image": "pages/page_02.jpg", "label": "Inhalt", "overlays": [] },
+    {
+      "num": 3, "image": "pages/page_03.jpg", "label": "Start auf Deutsch – S.4",
+      "overlays": [
+        { "type": "audio", "id": "aud_p3_1", "track": "audios/track_02.mp3", "label": "▶ Track 1.02", "x": 3.5, "y": 11.5, "w": 9, "h": 4.5 },
+        { "type": "audio", "id": "aud_p3_2", "track": "audios/track_07.mp3", "label": "▶ Track 1.07", "x": 51, "y": 11.5, "w": 9, "h": 4.5 },
+        { "type": "audio", "id": "aud_p3_3", "track": "audios/track_02.mp3", "label": "▶ Track 02", "x": 3.5, "y": 64, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p3_b1", "x": 18, "y": 68.5, "w": 22, "h": 3.2, "placeholder": "...gänzen", "answer": "Ergänzen" },
+        { "type": "input", "id": "inp_p3_b2", "x": 18, "y": 72.0, "w": 22, "h": 3.2, "placeholder": "A...", "answer": "Antworten" },
+        { "type": "input", "id": "inp_p3_b3", "x": 18, "y": 75.5, "w": 22, "h": 3.2, "placeholder": "B...", "answer": "Buchstabieren" },
+        { "type": "input", "id": "inp_p3_b4", "x": 18, "y": 79.0, "w": 22, "h": 3.2, "placeholder": "N...", "answer": "Notieren" },
+        { "type": "input", "id": "inp_p3_b5", "x": 18, "y": 82.5, "w": 22, "h": 3.2, "placeholder": "F...", "answer": "Fragen" },
+        { "type": "input", "id": "inp_p3_b6", "x": 18, "y": 86.0, "w": 22, "h": 3.2, "placeholder": "H...", "answer": "Hören" },
+        { "type": "input", "id": "inp_p3_b7", "x": 18, "y": 89.5, "w": 22, "h": 3.2, "placeholder": "L...", "answer": "Lesen" },
+        { "type": "input", "id": "inp_p3_b8", "x": 56, "y": 82.5, "w": 22, "h": 3.2, "placeholder": "K...", "answer": "Kreuzen" },
+        { "type": "input", "id": "inp_p3_b9", "x": 56, "y": 86.0, "w": 22, "h": 3.2, "placeholder": "V...", "answer": "Verbinden" },
+        { "type": "input", "id": "inp_p3_b10","x": 56, "y": 89.5, "w": 22, "h": 3.2, "placeholder": "M...", "answer": "Markieren" }
+      ]
+    },
+    {
+      "num": 4, "image": "pages/page_04.jpg", "label": "Start – S.5",
+      "overlays": [
+        { "type": "audio", "id": "aud_p4_1", "track": "audios/track_03.mp3", "label": "▶ Track 03", "x": 3.5, "y": 86, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p4_d1_1", "x": 5, "y": 63, "w": 88, "h": 3.5, "placeholder": "Dialog 1 – Zeile 1...", "answer": "Herr Yilmaz, wo wohnen Sie?" },
+        { "type": "input", "id": "inp_p4_d1_2", "x": 5, "y": 67, "w": 88, "h": 3.5, "placeholder": "Dialog 1 – Zeile 2...", "answer": "Ich wohne in Wiesbaden. Das ist bei Mainz." },
+        { "type": "input", "id": "inp_p4_d1_3", "x": 5, "y": 71, "w": 88, "h": 3.5, "placeholder": "Dialog 1 – Zeile 3...", "answer": "Und Sie, Frau Novak?" },
+        { "type": "input", "id": "inp_p4_d2_1", "x": 5, "y": 79, "w": 88, "h": 3.5, "placeholder": "Dialog 2 – Zeile 1...", "answer": "Frau Kim, woher kommen Sie?" },
+        { "type": "input", "id": "inp_p4_d2_2", "x": 5, "y": 83, "w": 88, "h": 3.5, "placeholder": "Dialog 2 – Zeile 2...", "answer": "Ich komme aus Korea." },
+        { "type": "input", "id": "inp_p4_d2_3", "x": 5, "y": 87, "w": 88, "h": 3.5, "placeholder": "Dialog 2 – Zeile 3...", "answer": "Und Sie, Herr Chan?" }
+      ]
+    },
+    {
+      "num": 5, "image": "pages/page_05.jpg", "label": "Kap.1 – Kaffee/Tee S.6",
+      "overlays": [
+        { "type": "input", "id": "inp_p5_c1", "x": 5,  "y": 78.5, "w": 10, "h": 3.5, "placeholder": "Wo/Woher/Was", "answer": "Woher" },
+        { "type": "input", "id": "inp_p5_c2", "x": 5,  "y": 82.5, "w": 10, "h": 3.5, "placeholder": "Wo/Woher/Was", "answer": "Wo" },
+        { "type": "input", "id": "inp_p5_c3", "x": 5,  "y": 86.5, "w": 10, "h": 3.5, "placeholder": "Wo/Woher/Was", "answer": "Wo" },
+        { "type": "input", "id": "inp_p5_c4", "x": 53, "y": 78.5, "w": 10, "h": 3.5, "placeholder": "Wo/Woher/Was", "answer": "Woher" },
+        { "type": "input", "id": "inp_p5_c5", "x": 53, "y": 82.5, "w": 10, "h": 3.5, "placeholder": "Wo/Woher/Was", "answer": "Was" },
+        { "type": "input", "id": "inp_p5_c6", "x": 53, "y": 86.5, "w": 10, "h": 3.5, "placeholder": "Wo/Woher/Was", "answer": "Was" }
+      ]
+    },
+    {
+      "num": 6, "image": "pages/page_06.jpg", "label": "Kap.1 – S.7",
+      "overlays": [
+        { "type": "audio", "id": "aud_p6_1", "track": "audios/track_04.mp3", "label": "▶ Track 04", "x": 3.5, "y": 30.5, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p6_z1",  "x": 35, "y": 10,   "w": 18, "h": 3.5, "placeholder": "Zahl", "answer": "101" },
+        { "type": "input", "id": "inp_p6_z2",  "x": 35, "y": 17.5, "w": 18, "h": 3.5, "placeholder": "€",    "answer": "16,70" },
+        { "type": "input", "id": "inp_p6_z3",  "x": 68, "y": 10,   "w": 12, "h": 3.5, "placeholder": "Zahl", "answer": "38" },
+        { "type": "input", "id": "inp_p6_z4",  "x": 20, "y": 24,   "w": 18, "h": 3.5, "placeholder": "Zahl", "answer": "74 36 82" },
+        { "type": "input", "id": "inp_p6_md1", "x": 30, "y": 36.5, "w": 55, "h": 3.5, "placeholder": "Nummer", "answer": "" },
+        { "type": "input", "id": "inp_p6_md2", "x": 30, "y": 41.0, "w": 55, "h": 3.5, "placeholder": "Nummer", "answer": "" },
+        { "type": "input", "id": "inp_p6_md3", "x": 30, "y": 45.5, "w": 55, "h": 3.5, "placeholder": "Nummer", "answer": "" },
+        { "type": "input", "id": "inp_p6_md4", "x": 30, "y": 50.0, "w": 35, "h": 3.5, "placeholder": "€",     "answer": "" },
+        { "type": "input", "id": "inp_p6_md5", "x": 30, "y": 54.5, "w": 35, "h": 3.5, "placeholder": "€",     "answer": "" },
+        { "type": "input", "id": "inp_p6_c1",  "x": 17, "y": 61.5, "w": 18, "h": 3.5, "placeholder": "bist",  "answer": "bist" },
+        { "type": "input", "id": "inp_p6_c2",  "x": 14, "y": 65.5, "w": 18, "h": 3.5, "placeholder": "heiße", "answer": "heiße" },
+        { "type": "input", "id": "inp_p6_c3",  "x": 14, "y": 69.0, "w": 12, "h": 3.5, "placeholder": "ist",   "answer": "ist" },
+        { "type": "input", "id": "inp_p6_c4",  "x": 30, "y": 69.0, "w": 14, "h": 3.5, "placeholder": "kommst","answer": "kommst" },
+        { "type": "input", "id": "inp_p6_c5",  "x": 14, "y": 72.5, "w": 18, "h": 3.5, "placeholder": "komme", "answer": "komme" },
+        { "type": "input", "id": "inp_p6_c6",  "x": 14, "y": 76.0, "w": 14, "h": 3.5, "placeholder": "komme", "answer": "komme" },
+        { "type": "input", "id": "inp_p6_c7",  "x": 30, "y": 76.0, "w": 14, "h": 3.5, "placeholder": "wohnst","answer": "wohnst" },
+        { "type": "input", "id": "inp_p6_c8",  "x": 14, "y": 79.5, "w": 18, "h": 3.5, "placeholder": "wohne", "answer": "wohne" },
+        { "type": "input", "id": "inp_p6_c9",  "x": 10, "y": 83.0, "w": 18, "h": 3.5, "placeholder": "möchten","answer": "möchten" },
+        { "type": "input", "id": "inp_p6_c10", "x": 14, "y": 86.5, "w": 14, "h": 3.5, "placeholder": "nehme", "answer": "nehme" },
+        { "type": "input", "id": "inp_p6_c11", "x": 36, "y": 86.5, "w": 12, "h": 3.5, "placeholder": "trinkst","answer": "trinkst" },
+        { "type": "input", "id": "inp_p6_c12", "x": 14, "y": 90.0, "w": 18, "h": 3.5, "placeholder": "nehme", "answer": "nehme" }
+      ]
+    },
+    {
+      "num": 7, "image": "pages/page_07.jpg", "label": "Kap.1 – Personen/sein S.8",
+      "overlays": [
+        { "type": "audio", "id": "aud_p7_1", "track": "audios/track_05.mp3", "label": "▶ Track 05", "x": 3.5, "y": 86, "w": 9, "h": 4 },
+        { "type": "textarea", "id": "ta_p7_2", "x": 53, "y": 20, "w": 44, "h": 16, "placeholder": "Das ist Rahul. Er kommt aus Indien und wohnt in Hamburg. Er ist im Fotokurs." },
+        { "type": "textarea", "id": "ta_p7_3", "x": 53, "y": 42, "w": 44, "h": 16, "placeholder": "Das ist Ying Xie. Sie kommt aus China und wohnt in Dortmund. Sie ist im Computerkurs." },
+        { "type": "textarea", "id": "ta_p7_4", "x": 53, "y": 62, "w": 44, "h": 16, "placeholder": "Das sind Paul und Jenny. Sie kommen aus England..." },
+        { "type": "input", "id": "inp_p7_m2", "x": 12, "y": 82.5, "w": 80, "h": 3.5, "placeholder": "Ich trinke Tee mit/ohne Zucker.", "answer": "" },
+        { "type": "input", "id": "inp_p7_m3", "x": 12, "y": 86.0, "w": 80, "h": 3.5, "placeholder": "Ich nehme Wasser mit/ohne Eis.", "answer": "" },
+        { "type": "input", "id": "inp_p7_m4", "x": 12, "y": 89.5, "w": 80, "h": 3.5, "placeholder": "Ich übe Verben mit/ohne Wortakzent.", "answer": "" },
+        { "type": "input", "id": "inp_p7_m5", "x": 12, "y": 93.0, "w": 80, "h": 3.5, "placeholder": "Ich schreibe das Wort Tür mit/ohne h.", "answer": "" }
+      ]
+    },
+    {
+      "num": 8, "image": "pages/page_08.jpg", "label": "Kap.1 – Das Verb sein S.9",
+      "overlays": [
+        { "type": "audio", "id": "aud_p8_1", "track": "audios/track_06.mp3", "label": "▶ Track 06", "x": 3.5, "y": 68, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p8_ich",  "x": 20, "y": 11.5, "w": 20, "h": 3.5, "placeholder": "bin", "answer": "bin" },
+        { "type": "input", "id": "inp_p8_wir",  "x": 65, "y": 11.5, "w": 20, "h": 3.5, "placeholder": "sind","answer": "sind" },
+        { "type": "input", "id": "inp_p8_ihr",  "x": 65, "y": 16.0, "w": 20, "h": 3.5, "placeholder": "seid","answer": "seid" },
+        { "type": "input", "id": "inp_p8_eres", "x": 20, "y": 20.5, "w": 20, "h": 3.5, "placeholder": "ist", "answer": "ist" },
+        { "type": "input", "id": "inp_p8_c1a",  "x": 22, "y": 33.5, "w": 14, "h": 3.2, "placeholder": "ist", "answer": "ist" },
+        { "type": "input", "id": "inp_p8_c1b",  "x": 52, "y": 33.5, "w": 14, "h": 3.2, "placeholder": "Sind","answer": "Sind" },
+        { "type": "input", "id": "inp_p8_c1c",  "x": 22, "y": 37.0, "w": 14, "h": 3.2, "placeholder": "bin", "answer": "bin" },
+        { "type": "input", "id": "inp_p8_c2a",  "x": 22, "y": 44.0, "w": 14, "h": 3.2, "placeholder": "sind","answer": "sind" },
+        { "type": "input", "id": "inp_p8_c2b",  "x": 52, "y": 44.0, "w": 14, "h": 3.2, "placeholder": "Seid","answer": "Seid" },
+        { "type": "input", "id": "inp_p8_c2c",  "x": 22, "y": 48.0, "w": 14, "h": 3.2, "placeholder": "sind","answer": "sind" },
+        { "type": "input", "id": "inp_p8_c2d",  "x": 52, "y": 48.0, "w": 14, "h": 3.2, "placeholder": "Woher","answer": "Woher" }
+      ]
+    },
+    {
+      "num": 9, "image": "pages/page_09.jpg", "label": "Kap.2 – Sprache S.10",
+      "overlays": [
+        { "type": "audio", "id": "aud_p9_1", "track": "audios/track_07.mp3", "label": "▶ Track 07", "x": 3.5, "y": 83, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p9_b1", "x": 28, "y": 85,   "w": 18, "h": 3.2, "placeholder": "Name", "answer": "" },
+        { "type": "input", "id": "inp_p9_b2", "x": 28, "y": 88.5, "w": 18, "h": 3.2, "placeholder": "Name", "answer": "" },
+        { "type": "input", "id": "inp_p9_b3", "x": 28, "y": 92,   "w": 18, "h": 3.2, "placeholder": "Name", "answer": "" },
+        { "type": "input", "id": "inp_p9_b4", "x": 60, "y": 85,   "w": 18, "h": 3.2, "placeholder": "Name", "answer": "" },
+        { "type": "input", "id": "inp_p9_b5", "x": 60, "y": 88.5, "w": 18, "h": 3.2, "placeholder": "Name", "answer": "" }
+      ]
+    },
+    {
+      "num": 10, "image": "pages/page_10.jpg", "label": "Kap.2 – Dialoge S.11",
+      "overlays": [
+        { "type": "audio", "id": "aud_p10_1", "track": "audios/track_08.mp3", "label": "▶ Track 08", "x": 3.5, "y": 55, "w": 9, "h": 4 }
+      ]
+    },
+    {
+      "num": 11, "image": "pages/page_11.jpg", "label": "Kap.2 – Kursraum S.12",
+      "overlays": [
+        { "type": "audio", "id": "aud_p11_1", "track": "audios/track_09.mp3", "label": "▶ Track 09", "x": 3.5, "y": 68, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p11_n1", "x": 5, "y": 9.0,  "w": 35, "h": 3.5, "placeholder": "der/die/das + Nomen", "answer": "" },
+        { "type": "input", "id": "inp_p11_n2", "x": 5, "y": 12.5, "w": 35, "h": 3.5, "placeholder": "...", "answer": "" },
+        { "type": "input", "id": "inp_p11_n3", "x": 5, "y": 16.0, "w": 35, "h": 3.5, "placeholder": "...", "answer": "" },
+        { "type": "input", "id": "inp_p11_n4", "x": 5, "y": 19.5, "w": 35, "h": 3.5, "placeholder": "...", "answer": "" },
+        { "type": "input", "id": "inp_p11_n5", "x": 5, "y": 23.0, "w": 35, "h": 3.5, "placeholder": "...", "answer": "" },
+        { "type": "input", "id": "inp_p11_n7", "x": 5, "y": 30.0, "w": 35, "h": 3.5, "placeholder": "...", "answer": "" }
+      ]
+    },
+    {
+      "num": 12, "image": "pages/page_12.jpg", "label": "Kap.3 – Städte S.14",
+      "overlays": [
+        { "type": "audio", "id": "aud_p12_1", "track": "audios/track_10.mp3", "label": "▶ Track 10", "x": 3.5, "y": 64, "w": 9, "h": 4 }
+      ]
+    },
+    {
+      "num": 13, "image": "pages/page_13.jpg", "label": "Kap.3 – Länder/Städte S.15",
+      "overlays": [
+        { "type": "textarea", "id": "ta_p13_2", "x": 5, "y": 17, "w": 90, "h": 5, "placeholder": "Paul kommt aus den USA, aber er lebt in England." },
+        { "type": "textarea", "id": "ta_p13_3", "x": 5, "y": 24, "w": 90, "h": 5, "placeholder": "Albina kommt aus dem Iran, aber sie lebt in der Slowakei." },
+        { "type": "textarea", "id": "ta_p13_4", "x": 5, "y": 32, "w": 90, "h": 5, "placeholder": "Antonio kommt aus der Schweiz, aber er lebt in den Niederlanden." },
+        { "type": "input", "id": "inp_p13_s2", "x": 5, "y": 69, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Wien" },
+        { "type": "input", "id": "inp_p13_s3", "x": 5, "y": 73, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Bern" },
+        { "type": "input", "id": "inp_p13_s4", "x": 5, "y": 77, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Hamburg" },
+        { "type": "input", "id": "inp_p13_s5", "x": 5, "y": 81, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Graz" },
+        { "type": "input", "id": "inp_p13_s6", "x": 5, "y": 85, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Hannover" },
+        { "type": "input", "id": "inp_p13_s7", "x": 5, "y": 89, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Dresden" },
+        { "type": "input", "id": "inp_p13_s8", "x": 5, "y": 93, "w": 28, "h": 3.5, "placeholder": "Stadtname", "answer": "Luzern" }
+      ]
+    },
+    {
+      "num": 14, "image": "pages/page_14.jpg", "label": "Kap.3 – Präteritum S.16",
+      "overlays": [
+        { "type": "audio", "id": "aud_p14_1", "track": "audios/track_11.mp3", "label": "▶ Track 11", "x": 3.5, "y": 46, "w": 9, "h": 4 },
+        { "type": "audio", "id": "aud_p14_2", "track": "audios/track_12.mp3", "label": "▶ Track 12", "x": 3.5, "y": 63, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p14_5a2a","x": 20, "y": 14.5, "w": 14, "h": 3.2, "placeholder": "waren", "answer": "waren" },
+        { "type": "input", "id": "inp_p14_5a2b","x": 42, "y": 14.5, "w": 14, "h": 3.2, "placeholder": "Warst", "answer": "Warst" },
+        { "type": "input", "id": "inp_p14_5a4a","x": 20, "y": 25.5, "w": 14, "h": 3.2, "placeholder": "bin",   "answer": "bin" },
+        { "type": "input", "id": "inp_p14_5a4b","x": 42, "y": 25.5, "w": 14, "h": 3.2, "placeholder": "warst", "answer": "warst" },
+        { "type": "input", "id": "inp_p14_spr1","x": 22, "y": 68,   "w": 14, "h": 3.2, "placeholder": "ich",       "answer": "spreche" },
+        { "type": "input", "id": "inp_p14_spr2","x": 22, "y": 72,   "w": 14, "h": 3.2, "placeholder": "du",        "answer": "sprichst" },
+        { "type": "input", "id": "inp_p14_spr3","x": 47, "y": 72,   "w": 14, "h": 3.2, "placeholder": "wir",       "answer": "sprechen" },
+        { "type": "input", "id": "inp_p14_spr4","x": 22, "y": 76,   "w": 14, "h": 3.2, "placeholder": "er/sie/es", "answer": "spricht" },
+        { "type": "input", "id": "inp_p14_spr5","x": 47, "y": 76,   "w": 14, "h": 3.2, "placeholder": "ihr",       "answer": "sprecht" },
+        { "type": "input", "id": "inp_p14_spr6","x": 22, "y": 80,   "w": 14, "h": 3.2, "placeholder": "sie/Sie",   "answer": "sprechen" }
+      ]
+    },
+    {
+      "num": 15, "image": "pages/page_15.jpg", "label": "Kap.3 – Fragen S.17",
+      "overlays": [
+        { "type": "audio", "id": "aud_p15_1", "track": "audios/track_13.mp3", "label": "▶ Track 13", "x": 3.5, "y": 76.5, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p15_fw1","x": 5, "y": 8.5,  "w": 13, "h": 3.2, "placeholder": "Was", "answer": "Was", "given": true },
+        { "type": "input", "id": "inp_p15_fw2","x": 5, "y": 12.5, "w": 13, "h": 3.2, "placeholder": "Woher","answer": "Woher" },
+        { "type": "input", "id": "inp_p15_fw3","x": 5, "y": 16.5, "w": 13, "h": 3.2, "placeholder": "Wo",  "answer": "Wo" },
+        { "type": "input", "id": "inp_p15_fw4","x": 5, "y": 20.5, "w": 13, "h": 3.2, "placeholder": "Was", "answer": "Was" },
+        { "type": "input", "id": "inp_p15_fw5","x": 5, "y": 24.5, "w": 13, "h": 3.2, "placeholder": "Wo",  "answer": "Wo" },
+        { "type": "input", "id": "inp_p15_fw6","x": 5, "y": 28.5, "w": 13, "h": 3.2, "placeholder": "Was", "answer": "Was" },
+        { "type": "input", "id": "inp_p15_fw7","x": 5, "y": 32.5, "w": 13, "h": 3.2, "placeholder": "Wo",  "answer": "Wo" },
+        { "type": "input", "id": "inp_p15_fw8","x": 5, "y": 36.5, "w": 13, "h": 3.2, "placeholder": "Wie", "answer": "Wie" }
+      ]
+    },
+    { "num": 16, "image": "pages/page_16.jpg", "label": "Leben in Deutschland 1 – S.18", "overlays": [] },
+    { "num": 17, "image": "pages/page_17.jpg", "label": "Leben in Deutschland 1 – S.19", "overlays": [] },
+    { "num": 18, "image": "pages/page_18.jpg", "label": "Kap.4 – Menschen S.20", "overlays": [] },
+    {
+      "num": 19, "image": "pages/page_19.jpg", "label": "Kap.4 – Probleme S.21",
+      "overlays": [
+        { "type": "audio", "id": "aud_p19_1", "track": "audios/track_14.mp3", "label": "▶ Track 14", "x": 3.5, "y": 29.5, "w": 9, "h": 4 },
+        { "type": "audio", "id": "aud_p19_2", "track": "audios/track_15.mp3", "label": "▶ Track 15", "x": 3.5, "y": 59.5, "w": 9, "h": 4 },
+        { "type": "audio", "id": "aud_p19_3", "track": "audios/track_16.mp3", "label": "▶ Track 16", "x": 3.5, "y": 65.5, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p19_adj1","x": 25, "y": 34.5, "w": 20, "h": 3.2, "placeholder": "kalt",   "answer": "kalt", "given": true },
+        { "type": "input", "id": "inp_p19_adj2","x": 25, "y": 44.5, "w": 20, "h": 3.2, "placeholder": "Adjektiv","answer": "" },
+        { "type": "input", "id": "inp_p19_adj3","x": 25, "y": 54.5, "w": 20, "h": 3.2, "placeholder": "Adjektiv","answer": "" },
+        { "type": "input", "id": "inp_p19_adj4","x": 68, "y": 34.5, "w": 20, "h": 3.2, "placeholder": "Adjektiv","answer": "" },
+        { "type": "input", "id": "inp_p19_adj5","x": 68, "y": 44.5, "w": 20, "h": 3.2, "placeholder": "Adjektiv","answer": "" },
+        { "type": "input", "id": "inp_p19_adj6","x": 68, "y": 54.5, "w": 20, "h": 3.2, "placeholder": "Adjektiv","answer": "" }
+      ]
+    },
+    {
+      "num": 20, "image": "pages/page_20.jpg", "label": "Kap.4 – Possessiv S.22",
+      "overlays": [
+        { "type": "input", "id": "inp_p20_p1","x": 33, "y": 41, "w": 18, "h": 3.2, "placeholder": "seine","answer": "seine","given": true },
+        { "type": "input", "id": "inp_p20_p2","x": 33, "y": 52, "w": 18, "h": 3.2, "placeholder": "unser","answer": "unser" },
+        { "type": "input", "id": "inp_p20_p3","x": 33, "y": 63, "w": 18, "h": 3.2, "placeholder": "mein", "answer": "mein" },
+        { "type": "input", "id": "inp_p20_p4","x": 33, "y": 73, "w": 18, "h": 3.2, "placeholder": "eure", "answer": "eure" },
+        { "type": "input", "id": "inp_p20_p5","x": 75, "y": 41, "w": 18, "h": 3.2, "placeholder": "deine","answer": "deine" },
+        { "type": "input", "id": "inp_p20_p6","x": 75, "y": 52, "w": 18, "h": 3.2, "placeholder": "ihr",  "answer": "ihr" },
+        { "type": "input", "id": "inp_p20_p7","x": 75, "y": 63, "w": 18, "h": 3.2, "placeholder": "ihre", "answer": "ihre" },
+        { "type": "input", "id": "inp_p20_p8","x": 75, "y": 73, "w": 18, "h": 3.2, "placeholder": "Ihr",  "answer": "Ihr" }
+      ]
+    },
+    { "num": 21, "image": "pages/page_21.jpg", "label": "Kap.5 – Termine S.26", "overlays": [] },
+    {
+      "num": 22, "image": "pages/page_22.jpg", "label": "Kap.5 – Uhrzeiten S.27",
+      "overlays": [
+        { "type": "audio", "id": "aud_p22_1", "track": "audios/track_18.mp3", "label": "▶ Track 18", "x": 3.5, "y": 49, "w": 9, "h": 4 }
+      ]
+    },
+    {
+      "num": 23, "image": "pages/page_23.jpg", "label": "Kap.5 – Tageszeiten S.28",
+      "overlays": [
+        { "type": "audio", "id": "aud_p23_1", "track": "audios/track_19.mp3", "label": "▶ Track 19", "x": 3.5, "y": 36.5, "w": 9, "h": 4 },
+        { "type": "audio", "id": "aud_p23_2", "track": "audios/track_19.mp3", "label": "▶ Track 19", "x": 3.5, "y": 49.0, "w": 9, "h": 4 }
+      ]
+    },
+    {
+      "num": 24, "image": "pages/page_24.jpg", "label": "Kap.5 – nicht/kein S.30",
+      "overlays": [
+        { "type": "input", "id": "inp_p24_n1","x": 5, "y": 67.5, "w": 85, "h": 3.5, "placeholder": "Nein, ich gehe am Sonntag nicht aus.", "answer": "Nein, ich gehe am Sonntag nicht aus.", "given": true },
+        { "type": "input", "id": "inp_p24_n2","x": 5, "y": 72,   "w": 85, "h": 3.5, "placeholder": "Nein, Thomas...", "answer": "" },
+        { "type": "input", "id": "inp_p24_n3","x": 5, "y": 76.5, "w": 85, "h": 3.5, "placeholder": "Tut mir leid...", "answer": "" },
+        { "type": "input", "id": "inp_p24_n4","x": 5, "y": 81,   "w": 85, "h": 3.5, "placeholder": "Nein, danke...",  "answer": "" },
+        { "type": "input", "id": "inp_p24_n5","x": 5, "y": 86,   "w": 85, "h": 3.5, "placeholder": "Nein...", "answer": "" },
+        { "type": "input", "id": "inp_p24_n6","x": 5, "y": 90,   "w": 85, "h": 3.5, "placeholder": "Nein, tut mir leid...", "answer": "" },
+        { "type": "input", "id": "inp_p24_n7","x": 5, "y": 94,   "w": 85, "h": 3.5, "placeholder": "Am Freitag? Nein...", "answer": "" }
+      ]
+    },
+    {
+      "num": 25, "image": "pages/page_25.jpg", "label": "Kap.5 – haben Präteritum S.31",
+      "overlays": [
+        { "type": "input", "id": "inp_p25_h1","x": 22, "y": 10,   "w": 28, "h": 3.5, "placeholder": "hatte",   "answer": "hatte" },
+        { "type": "input", "id": "inp_p25_h2","x": 22, "y": 14.5, "w": 28, "h": 3.5, "placeholder": "hattest", "answer": "hattest" },
+        { "type": "input", "id": "inp_p25_h3","x": 22, "y": 19,   "w": 28, "h": 3.5, "placeholder": "hatte",   "answer": "hatte" },
+        { "type": "input", "id": "inp_p25_h4","x": 65, "y": 10,   "w": 28, "h": 3.5, "placeholder": "hatten",  "answer": "hatten", "given": true },
+        { "type": "input", "id": "inp_p25_h5","x": 65, "y": 14.5, "w": 28, "h": 3.5, "placeholder": "hattet",  "answer": "hattet" },
+        { "type": "input", "id": "inp_p25_h6","x": 65, "y": 19,   "w": 28, "h": 3.5, "placeholder": "hatten",  "answer": "hatten" }
+      ]
+    },
+    { "num": 26, "image": "pages/page_26.jpg", "label": "Kap.6 – Orientierung S.32", "overlays": [] },
+    {
+      "num": 27, "image": "pages/page_27.jpg", "label": "Kap.6 – Verkehrsmittel S.34",
+      "overlays": [
+        { "type": "audio", "id": "aud_p27_1", "track": "audios/track_21.mp3", "label": "▶ Track 21", "x": 3.5, "y": 8, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p27_v2","x": 25, "y": 44,   "w": 50, "h": 3.5, "placeholder": "mit dem Zug...", "answer": "" },
+        { "type": "input", "id": "inp_p27_v3","x": 25, "y": 48.5, "w": 50, "h": 3.5, "placeholder": "mit der Straßenbahn...", "answer": "" },
+        { "type": "input", "id": "inp_p27_v4","x": 25, "y": 53,   "w": 50, "h": 3.5, "placeholder": "mit dem Bus...", "answer": "" },
+        { "type": "input", "id": "inp_p27_v5","x": 25, "y": 57.5, "w": 50, "h": 3.5, "placeholder": "mit dem Motorrad...", "answer": "" }
+      ]
+    },
+    { "num": 28, "image": "pages/page_28.jpg", "label": "Kap.7 – Berufe S.40", "overlays": [] },
+    {
+      "num": 29, "image": "pages/page_29.jpg", "label": "Kap.7 – Arbeitsorte S.41",
+      "overlays": [
+        { "type": "audio", "id": "aud_p29_1", "track": "audios/track_24.mp3", "label": "▶ Track 24", "x": 3.5, "y": 42, "w": 9, "h": 4 }
+      ]
+    },
+    {
+      "num": 30, "image": "pages/page_30.jpg", "label": "Kap.7 – können/müssen S.43",
+      "overlays": [
+        { "type": "audio", "id": "aud_p30_1", "track": "audios/track_26.mp3", "label": "▶ Track 26", "x": 3.5, "y": 54, "w": 9, "h": 4 },
+        { "type": "input", "id": "inp_p30_k1","x": 22, "y": 63, "w": 20, "h": 3.2, "placeholder": "können", "answer": "können" },
+        { "type": "input", "id": "inp_p30_k2","x": 16, "y": 67, "w": 16, "h": 3.2, "placeholder": "kann",   "answer": "kann" },
+        { "type": "input", "id": "inp_p30_k3","x": 35, "y": 67, "w": 16, "h": 3.2, "placeholder": "muss",   "answer": "muss" },
+        { "type": "input", "id": "inp_p30_k4","x": 16, "y": 71, "w": 16, "h": 3.2, "placeholder": "Musst",  "answer": "Musst" },
+        { "type": "input", "id": "inp_p30_k5","x": 16, "y": 75, "w": 16, "h": 3.2, "placeholder": "kannst", "answer": "kannst" },
+        { "type": "input", "id": "inp_p30_k6","x": 16, "y": 79, "w": 16, "h": 3.2, "placeholder": "kann",   "answer": "kann" },
+        { "type": "input", "id": "inp_p30_k7","x": 35, "y": 79, "w": 16, "h": 3.2, "placeholder": "muss",   "answer": "muss" },
+        { "type": "input", "id": "inp_p30_k8","x": 28, "y": 83, "w": 16, "h": 3.2, "placeholder": "könnt",  "answer": "könnt" },
+        { "type": "input", "id": "inp_p30_k9","x": 16, "y": 87, "w": 16, "h": 3.2, "placeholder": "können", "answer": "können" }
+      ]
+    },
+    { "num": 31, "image": "pages/page_31.jpg", "label": "Kap.10 – Essen S.60", "overlays": [] },
+    {
+      "num": 32, "image": "pages/page_32.jpg", "label": "Kap.10 – mögen S.64",
+      "overlays": [
+        { "type": "input", "id": "inp_p32_m1","x": 16, "y": 72, "w": 18, "h": 3.2, "placeholder": "mag",    "answer": "mag" },
+        { "type": "input", "id": "inp_p32_m2","x": 16, "y": 76, "w": 18, "h": 3.2, "placeholder": "magst",  "answer": "magst" },
+        { "type": "input", "id": "inp_p32_m3","x": 16, "y": 80, "w": 18, "h": 3.2, "placeholder": "mag",    "answer": "mag" },
+        { "type": "input", "id": "inp_p32_m4","x": 55, "y": 72, "w": 18, "h": 3.2, "placeholder": "mögen",  "answer": "mögen" },
+        { "type": "input", "id": "inp_p32_m5","x": 55, "y": 76, "w": 18, "h": 3.2, "placeholder": "mögt",   "answer": "mögt" },
+        { "type": "input", "id": "inp_p32_m6","x": 55, "y": 80, "w": 18, "h": 3.2, "placeholder": "mögen",  "answer": "mögen" }
+      ]
+    },
+    { "num": 33, "image": "pages/page_33.jpg", "label": "Kap.12 – Körper S.73", "overlays": [] },
+    {
+      "num": 34, "image": "pages/page_34.jpg", "label": "Kap.12 – dürfen/müssen S.77",
+      "overlays": [
+        { "type": "input", "id": "inp_p34_dm1","x": 27, "y": 10,   "w": 18, "h": 3.2, "placeholder": "darfst","answer": "darfst", "given": true },
+        { "type": "input", "id": "inp_p34_dm2","x": 16, "y": 14.5, "w": 18, "h": 3.2, "placeholder": "muss",  "answer": "muss" },
+        { "type": "input", "id": "inp_p34_dm3","x": 16, "y": 19,   "w": 18, "h": 3.2, "placeholder": "dürft", "answer": "dürft" },
+        { "type": "input", "id": "inp_p34_dm4","x": 22, "y": 23.5, "w": 18, "h": 3.2, "placeholder": "Darfst","answer": "Darfst" },
+        { "type": "input", "id": "inp_p34_dm5","x": 22, "y": 28,   "w": 18, "h": 3.2, "placeholder": "muss",  "answer": "muss" },
+        { "type": "input", "id": "inp_p34_dm6","x": 16, "y": 32.5, "w": 18, "h": 3.2, "placeholder": "musst", "answer": "musst" },
+        { "type": "input", "id": "inp_p34_dm7","x": 16, "y": 37,   "w": 18, "h": 3.2, "placeholder": "darf",  "answer": "darf" },
+        { "type": "input", "id": "inp_p34_dm8","x": 22, "y": 41.5, "w": 18, "h": 3.2, "placeholder": "darf",  "answer": "darf" }
+      ]
+    }
+  ]
+}
