@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio 21 A1 – Intensivtraining Online</title>
+  <meta name="description" content="Interaktive Übungen für Studio 21 A1 Intensivtraining">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238B1A1A'/><text x='4' y='24' font-size='20' font-family='serif' font-weight='bold' fill='white'>21</text></svg>">
+</head>
+<body>
+
+<!-- Mobile overlay -->
+<div id="overlay" class="overlay"></div>
+
+<!-- App Shell -->
+<div class="app">
+
+  <!-- ── SIDEBAR ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">studio <span>[21]</span></div>
+      <div class="subtitle">A1 · Intensivtraining Online</div>
+    </div>
+
+    <div class="sidebar-progress">
+      <div class="progress-label">Gesamtfortschritt</div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-text" id="progressText">0% abgeschlossen</div>
+    </div>
+
+    <nav class="chapter-nav" id="chapterNav">
+      <!-- Filled by JS -->
+    </nav>
+
+    <div style="padding:1rem 1.5rem;border-top:1px solid rgba(255,255,255,.1);">
+      <button class="btn btn-secondary btn-sm" onclick="resetAllProgress()" style="width:100%;justify-content:center;background:rgba(255,255,255,.08);color:rgba(255,255,255,.6);border-color:rgba(255,255,255,.15);">
+        ↺ Alles zurücksetzen
+      </button>
+      <div style="text-align:center;margin-top:.75rem;font-size:.68rem;opacity:.4;color:white;line-height:1.5;">
+        Tipp: Alt + ← / → zum Navigieren
+      </div>
+    </div>
+  </aside>
+
+  <!-- ── MAIN ── -->
+  <div style="display:flex;flex-direction:column;min-height:100vh;overflow:hidden;">
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen">☰</button>
+      <span class="topbar-chapter" id="topbarTitle">Studio 21 A1</span>
+      <div class="topbar-actions">
+        <button class="btn btn-secondary btn-sm" onclick="window.print()" data-tooltip="Drucken">🖨️</button>
+      </div>
+    </header>
+
+    <!-- Content area -->
+    <main class="main" id="mainContent">
+      <!-- Rendered by JS -->
+      <div style="text-align:center;padding:4rem 2rem;color:var(--ink-60);">
+        <div style="font-size:2rem;margin-bottom:1rem;">📚</div>
+        <div>Lädt Übungen…</div>
+      </div>
+    </main>
+
+  </div>
+</div>
+
+<!-- Audio note -->
+<div id="audioNote" style="display:none;position:fixed;bottom:1.5rem;right:1.5rem;background:var(--amber);color:white;padding:.75rem 1.25rem;border-radius:var(--radius);box-shadow:var(--shadow-lg);font-size:.85rem;max-width:260px;z-index:200;">
+  🎵 Audiodateien: Legen Sie die MP3-Dateien im Ordner <code style="background:rgba(0,0,0,.2);padding:.1em .3em;border-radius:3px;">audios/</code> ab.
+  <button onclick="this.parentElement.style.display='none'" style="float:right;background:none;border:none;color:white;font-size:1.1rem;cursor:pointer;margin-left:.5rem;">×</button>
+</div>
+
+<script src="js/app.js"></script>
+<script>
+  // Show audio hint once
+  if (!localStorage.getItem('s21_audiohint')) {
+    setTimeout(() => {
+      document.getElementById('audioNote').style.display = 'block';
+      localStorage.setItem('s21_audiohint', '1');
+    }, 2000);
+  }
+</script>
+</body>
+</html>
